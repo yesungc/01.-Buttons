@@ -6,9 +6,25 @@ body {
   grid-template-columns: auto;
 }
 
-.button1{
-  width: = 90px;
-  height = 40px; 
-  background-color: #D4E6F1;
-  border-radius: 20%;
+button{
+  align-self: center;
+  width:300px;
+  height:75px;
+  float: center;
+  font-family: 'VT323', monospace;
+  font-size:30px;
+  outline:0;
+  box-shadow:0px 10px 5px #EAEDED;
+  transition: 3sec
+}
+
+button:active{
+  background-color: #FA8072;
+  border: 3px solid #443f3e;
+  .circle{
+  width:100px;
+  height:100px;
+  border-radius:25%;
+  background-color: ##70C0F1;
+}
 }
