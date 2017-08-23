@@ -5,3 +5,19 @@ background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 .full-screen {
 height:100%;
 }
+
+.first_button{
+   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.second_button{
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+.third_button{
+   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.fourth_button{
+  background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+}
