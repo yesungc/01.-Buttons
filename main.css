@@ -1,9 +1,37 @@
+/*@import "compass/css3";*/
+
+html,
 body {
-background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  margin: 0;
+   height: 100%
 }
+
+header {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #EFEFEF;
+}
+
+.
 
 .full-screen {
 height:100%;
+opacity: 0;
+transform:translateY(50px);
+transition: all 1sec ease-out
+}
+
+.fade-in{
+  opacity:1;
+  transform:translateY(0);
 }
 
 .first_button{

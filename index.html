@@ -5,14 +5,47 @@
 <head>
   <title>Yesung Cho | Buttons</title>
   <link href= "main.css" rel="stylesheet" type="text/css" />
+
   <script src="main.js"> </script>
+
 </head>
 <!-- END OF HEAD -->
 
 
 <!-- BEGINNING OF BODY -->
 <body>
+  <main class="full-screen" role="main">
+    <section class="full-screen first_button">
+      <div>
+        <h1>Main Page</h1>
+      </div>
+    </section>
 
+    <section id="scale-trigger" class="full-screen second_button">
+      <div id="scale-animation">
+        <p>This element will scale down using the scale value of the CSS transform property.</p>
+      </div>
+    </section>
+
+    <section id="bg-trigger" class="full-screen third_button">
+      <div id="bg-animation">
+        <p>This element will have the background color change</p>
+      </div>
+    </section>
+
+    <section id="yoyo-trigger" class="full-screen fourth_button">
+      <div>
+        <p id="yoyo-animation">Section Four yoyo Text!</p>
+      </div>
+    </section>
+  </main>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.1/ScrollMagic.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.1/plugins/animation.gsap.js"></script>
 </body>
 <!-- END OF BODY -->
 
