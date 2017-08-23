@@ -2,17 +2,6 @@
 # If a USER STORY is large, break it into smaller user stories.
 
 --------------------------------------------------------------------------
-TYPE     : USER STORY 1.0
-NAME     : Colour Gradient Backgrounds
-OWNER    : Yesung
-PRIORITY : High
-ESTIMATE : 4
-AS A     : user
-I WANT   : to see colour gradient backgrounds
-SO THAT  : I can experience a full UX design and approach
-IMPL DTL :
---------------------------------------------------------------------------
---------------------------------------------------------------------------
 TYPE     : USER STORY 1.1
 NAME     : Font & Button Animation
 OWNER    : Yesung
@@ -69,15 +58,37 @@ IMPL DTL :
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
 TYPE     : USER STORY 1.6
-NAME     :
+NAME     : Title and Description
 OWNER    : Yesung
-PRIORITY :
-ESTIMATE :
-AS A     :
-I WANT   :
-SO THAT  :
+PRIORITY : medium
+ESTIMATE : 1 hour
+AS A     : User
+I WANT   : to read about what this page is about
+SO THAT  : I have an idea when playing with the website
+IMPL DTL :
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.7
+NAME     : Header
+OWNER    : Yesung
+PRIORITY : medium
+ESTIMATE : 1 hour
+AS A     : User
+I WANT   : to see the header
+SO THAT  : I have a navigation tool.
 IMPL DTL :
 --------------------------------------------------------------------------
 
 # COMPLETED USER STORIES/BUGS BELOW ###########################################
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.0
+NAME     : Colour Gradient Backgrounds
+OWNER    : Yesung
+PRIORITY : High
+ESTIMATE : 4
+AS A     : user
+I WANT   : to see colour gradient backgrounds
+SO THAT  : I can experience a full UX design and approach
+IMPL DTL :
+--------------------------------------------------------------------------
 # OMITTED USER STORIES/BUGS BELOW   ###########################################
