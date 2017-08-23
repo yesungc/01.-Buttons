@@ -15,3 +15,14 @@ I WANT   : to see colour gradient backgrounds
 SO THAT  : I can experience a full UX design and approach
 IMPL DTL :
 --------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.8
+NAME     : Buttons & Text
+OWNER    : Yesung
+PRIORITY : medium
+ESTIMATE : 1 hour
+AS A     : User
+I WANT   : to gather informations through clicking and reading
+SO THAT  : I can have a user experience.
+IMPL DTL :
+--------------------------------------------------------------------------
