@@ -1,96 +1,45 @@
-# User Stories/Bugs (add as appropriate), modify at each Sprint Planning Meeting
-# If a USER STORY is large, break it into smaller user stories.
+Start the sprint by holding a Sprint Planning Meeting.
+	Review the productBacklog
+		Clarify User Stories
+		Re-prioritize User Stories (and Bugs)
+		Add estimates to user stories. In our case,
+		add 1,2,4,8 hour estimates to each UserStory.
+		As the project evolves, these estimates can change.
 
---------------------------------------------------------------------------
-TYPE     : USER STORY 1.7
-NAME     : About Page
-OWNER    : Yesung
-PRIORITY : Medium
-ESTIMATE : 4
-AS A     : user
-I WANT   : to see an about page to better understand what Yesung has done.
-SO THAT  : they can contact for future partnership and job prospect.
-IMPL DTL :
---------------------------------------------------------------------------
---------------------------------------------------------------------------
-TYPE     : USER STORY 1.8
-NAME     : 404
-OWNER    : Yesung
-PRIORITY : Medium
-ESTIMATE : 4
-AS A     : user
-I WANT   : to see the 404 page
-SO THAT  : people can be directed to the right places.
-IMPL DTL :
---------------------------------------------------------------------------
+		Plan on 4 hours work/day.
 
-# COMPLETED USER STORIES/BUGS BELOW ###########################################
+		Add/Remove User Stories (and Bugs) as appropriate.
+	Choose User Stories and Bugs that will fit into the next
+	Sprint. These will go into the springBacklog.
+	Assign User Stories to team members.
 
---------------------------------------------------------------------------
-TYPE     : USER STORY 1.5
-NAME     : Basic Center Page
-OWNER    : Yesung
-PRIORITY : High
-ESTIMATE :
-AS A     : viewer
-I WANT   : to see the website in all device appropriate settings
-SO THAT  : I can see that everything is centered and working.
-IMPL DTL :
-Completed: v1.0 Tuesday August 22 2017
---------------------------------------------------------------------------
---------------------------------------------------------------------------
-TYPE     : USER STORY 1.3
-NAME     : Google Fonts
-OWNER    : Yesung
-PRIORITY : Medium
-ESTIMATE : 1 hour
-AS A     : user
-I WANT   : read with better fonts.
-SO THAT  : I can feel comfortable and attracted to the website.
-IMPL DTL :
---------------------------------------------------------------------------
---------------------------------------------------------------------------
-TYPE     : USER STORY 1.4
-NAME     : Animation
-OWNER    : Yesung
-PRIORITY : Medium
-ESTIMATE : 4
-AS A     : user
-I WANT   : to see un-hindering animation
-SO THAT  : that user can feel comfortable accessing my website
-IMPL DTL :
---------------------------------------------------------------------------
---------------------------------------------------------------------------
-TYPE     : USER STORY 1.2
-NAME     : Social Media Buttons
-OWNER    : Yesung
-PRIORITY : Medium
-ESTIMATE : 1 hour
-AS A     : user
-I WANT   : to be able to press buttons of social media
-SO THAT  : I can go to specific social media websites
-IMPL DTL :
---------------------------------------------------------------------------
---------------------------------------------------------------------------
-TYPE     : USER STORY 1.6
-NAME     : Self Portrait
-OWNER    : Yesung
-PRIORITY : Medium
-ESTIMATE : 4
-AS A     : user
-I WANT   : to see Yesung's beautiful photo
-SO THAT  : they understand who built this website
-IMPL DTL :
---------------------------------------------------------------------------
---------------------------------------------------------------------------
-TYPE     : USER STORY 1.1
-NAME     : Websites
-OWNER    : Yesung
-PRIORITY : High
-ESTIMATE : 4 hours
-AS A     : user
-I WANT   : access the website
-SO THAT  : I see the personal website.
-IMPL DTL :
---------------------------------------------------------------------------
-# OMITTED USER STORIES/BUGS BELOW   ###########################################
+Sprint
+	Each day work on the chosen SprintBacklog user stories.
+	Probably best to focus on one until it is finished.
+
+Sprint Review
+    At the end of the sprint, review the status of the
+    Sprint Backlog. Those items that are finished should
+    (in the ProductBacklog) be moved to COMPLETED.
+
+    Some UserStories that are not complete will appear in
+    the next Sprint for completion, so could appear in two or
+    more Sprints.
+
+What the files mean:
+
+planningNotes.txt (read this first)
+productBacklog.txt
+    Place User Stories here. I gave you most of them to start.
+    They may be incomplete, not well specified, and you may have more.
+    They are very fine grained, so that you can make small steps.
+
+sprintBacklog.txt
+    After a Scrum Planing Meeting, some Product Backlog
+    user stories have priorities as well as estimates.
+    From those you choose a few to fit into the 3 day sprint.
+    These are copied into the sprintBacklog, under the appropriate
+    sprint.
+
+dailyScrumMeeting[1-2].txt
+    Each team member fill theirs out each day.
