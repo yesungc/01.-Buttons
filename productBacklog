@@ -78,6 +78,17 @@ I WANT   : to see the header
 SO THAT  : I have a navigation tool.
 IMPL DTL :
 --------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.8
+NAME     : Buttons & Text
+OWNER    : Yesung
+PRIORITY : medium
+ESTIMATE : 1 hour
+AS A     : User
+I WANT   : to gather informations through clicking and reading
+SO THAT  : I can have a user experience.
+IMPL DTL :
+--------------------------------------------------------------------------
 
 # COMPLETED USER STORIES/BUGS BELOW ###########################################
 --------------------------------------------------------------------------
