@@ -1,20 +1,20 @@
 // Scale Animation Setup
 // .to('@target', @length, {@object})
-// var scale_tween = TweenMax.to('#scale-animation', 1, {
-//   transform: 'scale(.75)',
-//   ease: Linear.easeNone
-// });
+var scale_tween = TweenMax.to('.section', 1, {
+  transform: 'scale(.75)',
+  ease: Linear.easeNone
+});
 
 // BG Animation Setup
 // .to('@target', @length, {@object})
-var bg_tween = TweenMax.to('#bg-trigger', 1, {
+var bg_tween = TweenMax.to('$bg-trigger', 1, {
   backgroundColor: '#FFA500',
   ease: Linear.easeNone
 });
 
 // YoYo Animation Setup
 // .to(@target, @length, @object)
-var yoyo_tween = TweenMax.to('#yoyo-animation', 1, {
+var yoyo_tween = TweenMax.to('$yoyo-animation', 1, {
   transform: 'scale(2)',
   ease: Cubic.easeOut,
   repeat: -1, // this negative value repeats the animation
@@ -28,19 +28,19 @@ var controller = new ScrollMagic.Controller();
 
 // Scale Scene
 var scale_scene = new ScrollMagic.Scene({
-  triggerElement: '#scale-trigger'
+  triggerElement: '$scale-trigger'
 })
 .setTween(scale_tween);
 
 // Background Scene
 var bg_scene = new  ScrollMagic.Scene({
-  triggerElement: '#bg-trigger'
+  triggerElement: '$bg-trigger'
 })
 .setTween(bg_tween);
 
 // YoYo Scene
 var yoyo_scene = new  ScrollMagic.Scene({
-  triggerElement: '#yoyo-trigger'
+  triggerElement: '$yoyo-trigger'
 })
 .setTween(yoyo_tween);
 
